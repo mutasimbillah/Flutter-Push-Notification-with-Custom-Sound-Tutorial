@@ -1,0 +1,27 @@
+{
+    //basic vscode 
+    "editor.fontFamily": "'fira code', 'monospace', monospace",
+    "files.autoSave": "onFocusChange",
+    "editor.formatOnSave": true,
+    "editor.fontSize": 22,
+    "editor.lineHeight": 28,
+    "workbench.editor.labelFormat": "short",
+    "breadcrumbs.enabled": true,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+    "debug.console.lineHeight": 4,
+    //dart and flutter
+    "dart.autoImportCompletions": true,
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false
+    },
+}
